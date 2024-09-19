@@ -4,30 +4,41 @@
     <head>
     <title>Marginesy Wew i Zew</title>
     <style>
-    body {
+            body {
         background-color: burlywood;
-        text-align: center;
-    }
-    th,td,tr{
-        border: 1px solid black;
+            }
+    #margines1 {
         padding: 20px;
-
+        border: 5px solid black;
     }
-    table {
-        border-collapse: collapse;
-        text-align: center;
-        margin: auto;
-        width: 40%;
+    th, td {
+        border: 5px solid black;
     }
-    th,td{
-        height: 40px;
+    #margines2 {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+        margin-right: 25px;
+    }
+    #margines3 {
+        padding: 20px;
+        border: 5px solid black;
+    }
+    #margines4 {
+        padding: 20px;
+        border: 5px solid black;
+    }
+    #margines5 {
+        padding: 20px;
+        border: 5px solid black;
     }
     </style>
     
     </head>
+    
     <body>
         <h4>Zadanie 1: ROWSPAN</h4>
-    <table>
+    <table id="margines1">
         <tr>
             <th rowspan="2">elo</th>
             <th>elo</th>
@@ -46,7 +57,7 @@
     </table>
     
     <h4>Zadanie 2: COLSPAN</h4>
-    <table>
+    <table id="margines2">
         <tr>
             <th>hejka</th>
             <th>hejka</th>
@@ -58,13 +69,13 @@
             <td colspan="2">hejka</td>
             <td>hejka</td>
         </tr>
-        <tr>hejka
+        <tr>
             <td>hejka</td>
             <td>hejka</td>
             <td>hejka</td>
             <td>hejka</td>
         </tr>
-    </table>
+    </table id="margines3">
     <h4>Zadanie 3: COLSPAN i ROWSPAN</h4>
     <table>
         <tr>
@@ -90,7 +101,7 @@
             <td>siemanko</td>
             
         </tr>
-    </table>
+    </table id="margines4">
     <h4>Zadanie 4: COLSPAN i ROWSPAN</h4>
     <table>
         <tr>
@@ -128,7 +139,7 @@
             <td>jejeczko</td>
             <td>jejeczko</td>
         </tr>
-    </table>
+    </table id="margines5">
     <h4>Zadanie 5: COLSPAN i ROWSPAN</h4>
     <table>
         <tr>
